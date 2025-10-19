@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.15)  19 OCT 2025 10:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.15)  19 OCT 2025 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,11 +160,6 @@ LaTeX Warning: No \author given.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 [2]
-Overfull \hbox (6.61246pt too wide) in paragraph at lines 84--90
-[]\OT1/cmr/m/n/10.95 Eine Folge hei^^Yt $[]$ oder $[]$, wenn
- []
-
-
 
 [3]
 
@@ -198,7 +193,7 @@ m/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on Analysis.pdf (5 pages, 186350 bytes).
+Output written on Analysis.pdf (5 pages, 186166 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream

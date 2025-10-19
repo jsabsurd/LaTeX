@@ -10,8 +10,6 @@
 \maketitle
 \tableofcontents
 
-% Diagramm einfügen
-
 \section{Grundlagen}
 \subsection{Def.: Grundlegendes}
 \begin{enumerate}[label={\alph*)}]
@@ -76,12 +74,17 @@ $=\frac{(n+1)(n+2)}{2}=\frac{(n+1)((n+1)+1)}{2}$
 \subsection{Def.: Eigenschaften von Grenzwerten}
 \begin{enumerate}[label={\alph*)}]
 	\item \underline{konvergent} $\Leftrightarrow\exists a\in\mathbb{R}$
+		\begin{itemize}
+			\item \underline{Nullfolge} $\Leftrightarrow a = 0$
+		\end{itemize}
 	\item \underline{divergent} $\Leftrightarrow\nexists a\in\mathbb{R}$
-	\item \underline{Nullfolge} $\Leftrightarrow a = 0$
+		\begin{itemize}
+			\item \underline{bestimmt divergent} $\Leftrightarrow\exists a\text{ mit }a=\begin{Bmatrix}\infty\\-\infty\end{Bmatrix}$
+			\item \underline{unbestimmt divergent} $\Leftrightarrow\nexists a$
+		\end{itemize}
 \end{enumerate}
-\subsection{Def.: Eigenschaften von Funktionen}
-\begin{enumerate}[label={\alph*)}]
-	\item Eine Folge heißt \underline{bestimmt divergent} oder \underline{uneigentlich konvergent}, wenn sie als \underline{uneigentlichen GW}
+\subsection{Def.: Uneigentlicher Grenzwert}
+	Eine Folge heißt \underline{bestimmt divergent} oder \underline{uneigentlich konvergent}, wenn sie als \underline{uneigentlichen GW}
 		$\begin{Bmatrix}
 			\infty\\
 			-\infty
@@ -92,9 +95,6 @@ $=\frac{(n+1)(n+2)}{2}=\frac{(n+1)((n+1)+1)}{2}$
 			\underset{n\rightarrow\infty}{\lim}a_n=-\infty\text{ oder }a_n\underset{n\to\infty}{\rightarrow}-\infty
 		\end{Bmatrix}\]
 		d.h. $\forall\begin{Bmatrix}A>0\\A<0\end{Bmatrix}\exists N(A)>0: \begin{Bmatrix}a_n>A\\a_n<A\end{Bmatrix}\forall n\geq N(A)$
-	\item Eine Folge heißt \underline{unbestimmt divergent}, wenn sie weder konvergent, noch bestimmt divergent ist.
-	\item Tree einfügen.
-\end{enumerate}
 \subsection{Satz: Eindeutigkeit}
 Wenn eine Folge einen GW besitzt, ist sie \underline{eindeutig}.
 \subsection{Satz: Rechenregeln für GW}
