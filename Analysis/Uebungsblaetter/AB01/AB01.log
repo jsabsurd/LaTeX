@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.15)  19 OCT 2025 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.15)  19 OCT 2025 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,7 +152,7 @@ LaTeX Warning: No \author given.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (15.47955pt too wide) in paragraph at lines 35--35
+Overfull \hbox (15.47955pt too wide) in paragraph at lines 68--68
 []\OT1/cmr/bx/n/14.4 Aufgabe 04: Fol-gen mit bes-timmten Eigen-schaften 
  []
 
@@ -165,13 +165,13 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2040 strings out of 475171
- 29168 string characters out of 5767094
+ 2046 strings out of 475171
+ 29264 string characters out of 5767094
  424700 words of memory out of 5000000
- 25068 multiletter control sequences out of 15000+600000
- 566280 words of font info for 64 fonts, out of 8000000 for 9000
+ 25072 multiletter control sequences out of 15000+600000
+ 566981 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,7n,65p,282b,252s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,10n,65p,282b,252s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -184,7 +184,7 @@ m/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AB01.pdf (2 pages, 147909 bytes).
+Output written on AB01.pdf (2 pages, 154990 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
