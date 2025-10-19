@@ -10,6 +10,13 @@
 \maketitle
 
 \section{Aufgabe 01}
+Es gilt $\forall x,y\in\mathbb{R}$ die \emph{Dreiecksungleichung}: $|x+y|\leq|x|+|y|$.\\
+Zeigen sie mittels \emph{vollständiger Induktion} folgende vereinfachte Gleichung:\\
+$|\underset{k=1}{\overset{n}{\sum}}a_k|\leq\underset{k=1}{\overset{n}{\sum}}|a_k|\forall n\in\mathbb{N},a_1,\cdots,a_n\in\mathbb{R}$ (IH)\\
+\underline{Lösung}:\\
+(IA) $n=1: |\underset{k=1}{\overset{1}{\sum}}a_k|=|a_1|\leq|a_1|=\underset{k=1}{\overset{1}{\sum}}|a_k|$\\
+(IS) $n=n+1:|\underset{k=1}{\overset{n+1}{\sum}}a_k|=|\underset{k=1}{\overset{n}{\sum}}a_k+a_{n+1}|\overset{trivial}{=}|\underset{k=1}{\overset{n}{\sum}}a_k|+|a_{n+1}|\\
+\overset{IH}{\leq}\underset{k=1}{\overset{n}{\sum}}|a_k|+|a_{n+1}|=\underset{k=1}{\overset{n+1}{\sum}}|a_k|$
 \section{Aufgabe 02}
 \section{Aufgabe 03}
 \section{Aufgabe 04}
