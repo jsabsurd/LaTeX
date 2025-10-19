@@ -16,7 +16,7 @@ $|\underset{k=1}{\overset{n}{\sum}}a_k|\leq\underset{k=1}{\overset{n}{\sum}}|a_k
 (IA) $n=1: |\underset{k=1}{\overset{1}{\sum}}a_k|=|a_1|\leq|a_1|=\underset{k=1}{\overset{1}{\sum}}|a_k|$\\
 (IS) $n=n+1:|\underset{k=1}{\overset{n+1}{\sum}}a_k|=|\underset{k=1}{\overset{n}{\sum}}a_k+a_{n+1}|\overset{trivial}{=}|\underset{k=1}{\overset{n}{\sum}}a_k|+|a_{n+1}|\\
 \overset{IH}{\leq}\underset{k=1}{\overset{n}{\sum}}|a_k|+|a_{n+1}|=\underset{k=1}{\overset{n+1}{\sum}}|a_k|$
-\section{Aufgabe 02: Geometrische Summe:}
+\section{Aufgabe 02: Geometrische Summe}
 \begin{enumerate}[label={\alph*)}]
 	\item Beweisen sie mittel \emph{vollständiger Induktion}:\\
 		$n\in\mathbb{N}_0,q\neq1:\underset{k=0}{\overset{n}{\sum}}q^k=\frac{1-q^{n+1}}{1-q}$ (IH)\\
@@ -25,11 +25,12 @@ $|\underset{k=1}{\overset{n}{\sum}}a_k|\leq\underset{k=1}{\overset{n}{\sum}}|a_k
 		=\frac{1-q^{n+1}}{1-q}+\frac{q^{n+1}}{1}=\frac{1(1-q^{n+1})}{1(1-q)}+\frac{(1-q)(q^{n+1})}{1(1-q)}\\
 		=\frac{1-q^{n+1}}{1-q}+\frac{q^{n+1}-q^{n+2}}{1-q}=\frac{1-q^{n+1}+q^{n+1}-q^{n+2}}{1-q}=\frac{1-q^{n+2}}{1-q}=\frac{1-q^{(n+1)+1}}{1-q}$
 	\item Die beschriebene Summe verhält sich für $a(1)=1, a(2)=2, a(3)=4$ usw., d.h. es gilt folgende \emph{geometrische} Folge: $a(n)=2^{n-1}$\\
-		Für die Lösung müssen wir lediglich folgende Formel ausrechnen\\
-		$\underset{k=1}{\overset{64}{\sum}}2^{k-1}\overset{Indexversch.}{=}\underset{k=0}{\overset{63}{\sum}}2^k$
+		Für die Lösung müssen wir lediglich folgende Formel ausrechnen:
 
-		tba.
+		$\underset{k=1}{\overset{64}{\sum}}2^{k-1}\overset{Indexversch.}{=}\underset{k=0}{\overset{63}{\sum}}2^k\overset{geom. SF}{=}\frac{1-2^{63+1}}{1-2}=\frac{1-2^{64}}{-1}=\frac{1}{-1}-\frac{2^{64}}{-1}= -1+\frac{2^{64}}{1}=2^{64}-1=18446744073709551615$
+
+		Man bräuchte als genau 18446744073709551615 Reiskörner.
 \end{enumerate}
-\section{Aufgabe 03}
-\section{Aufgabe 04}
+\section{Aufgabe 03: Eigenschaften von Folgen}
+\section{Aufgabe 04: Folgen mit bestimmten Eigenschaften}
 \end{document}
